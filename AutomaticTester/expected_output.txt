@@ -1,0 +1,94 @@
+Details about Train number 1
+licence = 6108, source = NewYork, destination = Jerusalem, station = 0, maxPassengers = 389
+Details about Train number 2
+licence = 3350, source = Madrid, destination = Bordeaux, station = 0, maxPassengers = 68
+Details about Train number 3
+licence = 94, source = Madrid, destination = Rome, station = 0, maxPassengers = 14
+Details about Train number 4
+licence = 416, source = Copenhagen, destination = Bordeaux, station = 0, maxPassengers = 231
+Details about Train number 5
+licence = 6678, source = Copenhagen, destination = Bordeaux, station = 0, maxPassengers = 256
+Details about Plane number 1
+licence = 6214, source = NewYork, destination = Barcelona, maxHeight = 1053
+Details about Plane number 2
+licence = 5362, source = Bordeaux, destination = Madrid, maxHeight = 307
+Details about Plane number 3
+licence = 7150, source = Jerusalem, destination = Rome, maxHeight = 1497
+Details about Plane number 4
+licence = 2615, source = Copenhagen, destination = Helsinki, maxHeight = 902
+Details about Plane number 5
+licence = 155, source = Helsinki, destination = Bordeaux, maxHeight = 342
+---Sorting trains...---
+
+Train 94 going from Madrid to Rome. Currently in Madrid
+Train 3350 going from Madrid to Bordeaux. Currently in Madrid
+Train 416 going from Copenhagen to Bordeaux. Currently in Copenhagen
+Train 6678 going from Copenhagen to Bordeaux. Currently in Copenhagen
+Train 6108 going from NewYork to Jerusalem. Currently in NewYork
+---Sorting planes...---
+
+Plane 5362 going from Bordeaux to Madrid. Currently in Bordeaux
+Plane 155 going from Helsinki to Bordeaux. Currently in Helsinki
+Plane 2615 going from Copenhagen to Helsinki. Currently in Copenhagen
+Plane 6214 going from NewYork to Barcelona. Currently in NewYork
+Plane 7150 going from Jerusalem to Rome. Currently in Jerusalem
+---All together...---
+
+Train 94 going from Madrid to Rome. Currently in Madrid
+Plane 5362 going from Bordeaux to Madrid. Currently in Bordeaux
+Train 3350 going from Madrid to Bordeaux. Currently in Madrid
+Plane 155 going from Helsinki to Bordeaux. Currently in Helsinki
+Train 416 going from Copenhagen to Bordeaux. Currently in Copenhagen
+Plane 2615 going from Copenhagen to Helsinki. Currently in Copenhagen
+Train 6678 going from Copenhagen to Bordeaux. Currently in Copenhagen
+Plane 6214 going from NewYork to Barcelona. Currently in NewYork
+Train 6108 going from NewYork to Jerusalem. Currently in NewYork
+Plane 7150 going from Jerusalem to Rome. Currently in Jerusalem
+---All together after move...---
+
+Train 94 going from Madrid to Rome. Currently in station 1 between Madrid and Rome.
+Plane 5362 going from Madrid to Bordeaux. Currently in Madrid
+Train 3350 going from Madrid to Bordeaux. Currently in station 1 between Madrid and Bordeaux.
+Plane 155 going from Bordeaux to Helsinki. Currently in Bordeaux
+Train 416 going from Copenhagen to Bordeaux. Currently in station 1 between Copenhagen and Bordeaux.
+Plane 2615 going from Helsinki to Copenhagen. Currently in Helsinki
+Train 6678 going from Copenhagen to Bordeaux. Currently in station 1 between Copenhagen and Bordeaux.
+Plane 6214 going from Barcelona to NewYork. Currently in Barcelona
+Train 6108 going from NewYork to Jerusalem. Currently in station 1 between NewYork and Jerusalem.
+Plane 7150 going from Rome to Jerusalem. Currently in Rome
+---All together after move...---
+
+Train 94 going from Madrid to Rome. Currently in station 2 between Madrid and Rome.
+Plane 5362 going from Bordeaux to Madrid. Currently in Bordeaux
+Train 3350 going from Bordeaux to Madrid. Currently in Bordeaux
+Plane 155 going from Helsinki to Bordeaux. Currently in Helsinki
+Train 416 going from Copenhagen to Bordeaux. Currently in station 2 between Copenhagen and Bordeaux.
+Plane 2615 going from Copenhagen to Helsinki. Currently in Copenhagen
+Train 6678 going from Bordeaux to Copenhagen. Currently in Bordeaux
+Plane 6214 going from NewYork to Barcelona. Currently in NewYork
+Train 6108 going from Jerusalem to NewYork. Currently in Jerusalem
+Plane 7150 going from Jerusalem to Rome. Currently in Jerusalem
+---All together after move...---
+
+Train 94 going from Madrid to Rome. Currently in station 3 between Madrid and Rome.
+Plane 5362 going from Madrid to Bordeaux. Currently in Madrid
+Train 3350 going from Bordeaux to Madrid. Currently in station 1 between Bordeaux and Madrid.
+Plane 155 going from Bordeaux to Helsinki. Currently in Bordeaux
+Train 416 going from Copenhagen to Bordeaux. Currently in station 3 between Copenhagen and Bordeaux.
+Plane 2615 going from Helsinki to Copenhagen. Currently in Helsinki
+Train 6678 going from Bordeaux to Copenhagen. Currently in station 1 between Bordeaux and Copenhagen.
+Plane 6214 going from Barcelona to NewYork. Currently in Barcelona
+Train 6108 going from Jerusalem to NewYork. Currently in station 1 between Jerusalem and NewYork.
+Plane 7150 going from Rome to Jerusalem. Currently in Rome
+---All together after move...---
+
+Train 94 going from Rome to Madrid. Currently in Rome
+Plane 5362 going from Bordeaux to Madrid. Currently in Bordeaux
+Train 3350 going from Madrid to Bordeaux. Currently in Madrid
+Plane 155 going from Helsinki to Bordeaux. Currently in Helsinki
+Train 416 going from Copenhagen to Bordeaux. Currently in station 4 between Copenhagen and Bordeaux.
+Plane 2615 going from Copenhagen to Helsinki. Currently in Copenhagen
+Train 6678 going from Copenhagen to Bordeaux. Currently in Copenhagen
+Plane 6214 going from NewYork to Barcelona. Currently in NewYork
+Train 6108 going from NewYork to Jerusalem. Currently in NewYork
+Plane 7150 going from Jerusalem to Rome. Currently in Jerusalem
