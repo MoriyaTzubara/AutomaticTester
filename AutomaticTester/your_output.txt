@@ -1,6 +1,6 @@
-Details about Train number 1
+Details about Tra1n number 1
 licence = 6108, source = NewYork, destination = Jerusalem, station = 0, maxPassengers = 389
-Details about Train number 2
+Details about Tra1n number 2
 licence = 3350, source = Madrid, destination = Bordeaux, station = 0, maxPassengers = 68
 Details about Train number 3
 licence = 94, source = Madrid, destination = Rome, station = 0, maxPassengers = 14
@@ -27,7 +27,7 @@ Train 6678 going from Copenhagen to Bordeaux. Currently in Copenhagen
 Train 6108 going from NewYork to Jerusalem. Currently in NewYork
 ---Sorting planes...---
 
-Plane 5362 going from Bordeaux to Madrid. Currently in Bordeaux
+Plane 5362 going from Bordeaux to Madrid. Currently in Bordeaux   0
 Plane 155 going from Helsinki to Bordeaux. Currently in Helsinki
 Plane 2615 going from Copenhagen to Helsinki. Currently in Copenhagen
 Plane 6214 going from NewYork to Barcelona. Currently in NewYork

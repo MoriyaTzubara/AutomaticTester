@@ -1,29 +1,41 @@
-"""
-GOOD LUCK!
-"""
+
+SUCCESS_MESSAGE = "\n ***************** All right:) You are genius! *****************\n"
+ERROR_MESSAGE = "ERROR:\nCheck if this folder contains the files: expected_output.txt, your_output.txt, and try again."
+
+DIVIDER_LINE = "------------------------------------------------------------------"
+
+
+
 user_input = "y"
+
 while user_input in {"y", "Y", "yes", "Yes", "V", "v"}:
-    print("------------------------------------------------------------------")
+    
+    print(DIVIDER_LINE)
+    
     try:
         your_output = open("your_output.txt")
         expected_output = open("expected_output.txt")
         
         flag = True
         line_num = 1
-        for line1 in your_output:
-            line2 = expected_output.readline()
-            line1 = line1.strip().strip('\n')
-            line2 = line2.strip().strip('\n')
-            if line1 != line2:
+        
+        for your_line in your_output:
+            expected_line = expected_output.readline()
+            
+            your_line = your_line.strip().strip('\n')
+            expected_line = expected_line.strip().strip('\n')
+            
+            if your_line != expected_line:
                 
                 # Print different lines
                 print("oops... (line {}):".format(line_num))
-                print("Expected:", line2)
-                print("Yours:   ", line1)
+                print("Expected:", expected_line)
+                print("Yours:   ", your_line)
                 
                 # Print arrows
-                arrows = "".join([" " if line1[i] == line2[i] else "^" for i in range(min(len(line1), len(line2)))])
-                arrows += "^" * (abs(len(line1) - len(line2)))
+                arrows = "".join([" " if your_line[i] == expected_line[i] else "^" for i in range(min(len(your_line), len(expected_line)))])
+                arrows += "^" * (abs(len(your_line) - len(expected_line)))
+                
                 print("         ", arrows)
                 
                 flag = False
@@ -31,15 +43,14 @@ while user_input in {"y", "Y", "yes", "Yes", "V", "v"}:
             line_num += 1
             
         if flag:
-            print("\n ***************** All right:) You are genius! *****************\n")
+            print(SUCCESS_MESSAGE)
         
         your_output.close()
         expected_output.close()
     
     except:
-        print("ERROR!")
-        print("Check if this folder contains the files: expected_output.txt, your_output.txt, and try again.")
-
-    print("------------------------------------------------------------------")
+        print(ERROR_MESSAGE)
+    
+    print(DIVIDER_LINE)
 
     user_input = input("Try again? y/n : ")
